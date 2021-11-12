@@ -1,0 +1,67 @@
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+}
+
+div.section.main p.header_text {
+font-size:110%;
+line-height:15pt;
+}
+
+div.section div.affiliation {
+float:right;
+margin-left:25px;
+height:200px
+}
+
+div.section div.publication {
+border: solid 1px #ccc;
+border-radius: 5px;
+margin-bottom:10px;
+padding: 10px;
+}
+
+div.publication p.paperTitle {
+font-family:arial;
+font-size:11pt;
+line-height:1;
+margin-top:3px;
+}
+
+div.publication img {
+float:left;
+margin-right:10px;
+border:solid 1px #ccc;
+padding:2px;
+width:175px;
+}
+
+div.publication table.thumbs {
+float:left;
+padding:0;
+}
+
+div.publication table.thumbs td {
+padding:0;
+}
+
+div.publication table.thumbs img {
+margin:none;
+border:none;
+width:80px;
+}
+
+div.publication div.info {
+margin-left:190px;
+}
+
+p.abstract, div.abstract {
+display:none;
+}
+
+div.abstract p,
+div.abstract li {
+font-size:90%;
+text-align: left;
+}
